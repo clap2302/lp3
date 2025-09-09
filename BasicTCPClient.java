@@ -5,9 +5,9 @@ import java.net.Socket;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
-public class BasicTCPClient 
+public class BasicTCPClient
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         try
         {
