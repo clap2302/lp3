@@ -2,9 +2,8 @@ package Calculator;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.Inet4Address;
 
-public class calculatorSender
+public class CalculatorSender
 {
     public static void main(String[] args)
     {
@@ -16,9 +15,9 @@ public class calculatorSender
 
         try
         {
-            Inet4Address address = (Inet4Address) Inet4Address.getByName(args[0]);
             int port = Integer.parseInt(args[1]);
             DatagramSocket socket = new DatagramSocket(port);
+            Calculator calculator = new Calculator();
             
             while (true)
             {
@@ -28,28 +27,24 @@ public class calculatorSender
     
                 String messageString = new String(packetReceived.getData()).trim();
                 String[] parts = messageString.split(" ");
+                double num1 = Double.parseDouble(parts[0]);
+                double num2 = Double.parseDouble(parts[2]);
                 double result = 0;
     
-                if (parts[2].equals("+"))
+                switch (parts[1])
                 {
-                    result = Double.parseDouble(parts[0]) + Double.parseDouble(parts[1]);
-                }
-                else if (parts[2].equals("-"))
-                {
-                    result = Double.parseDouble(parts[0]) - Double.parseDouble(parts[1]);
-                }
-                else if (parts[2].equals("*"))
-                {
-                    result = Double.parseDouble(parts[0]) * Double.parseDouble(parts[1]);
-                }
-                else if (parts[2].equals("/"))
-                {
-                    result = Double.parseDouble(parts[0]) / Double.parseDouble(parts[1]);
-                }
-                else
-                {
-                    System.err.println("Invalid operation: " + parts[2]);
-                    System.exit(1);
+                    case "+" -> result = calculator.add(num1, num2);
+
+                    case "-" -> result = calculator.subtract(num1, num2);
+
+                    case "*" -> result = calculator.multiply(num1, num2);
+
+                    case "/" -> result = calculator.divide(num1, num2);
+
+                    default -> {
+                        System.err.println("Invalid operation: " + parts[1]);
+                        System.exit(1);
+                    }
                 }
     
                 DatagramPacket sendingPacket = new DatagramPacket(

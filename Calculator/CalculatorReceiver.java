@@ -6,7 +6,7 @@ import java.net.Inet4Address;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class calculatorReceiver
+public class CalculatorReceiver
 {
     public static void main(String[] args)
     {
@@ -24,7 +24,7 @@ public class calculatorReceiver
 
             while (true)
             {
-                System.out.println("Enter operation in the format: <num1> <num2> <operation(+,-,*,/)>");
+                System.out.println("Enter operation in the format: <num1> <operation(+,-,*,/)> <num2>");
                 Scanner scanner = new Scanner(System.in);
                 String input = scanner.nextLine();
                 
