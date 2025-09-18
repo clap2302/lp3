@@ -2,9 +2,9 @@ import java.io.*;
 import java.net.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class ChatClient 
+public class ChatClient
 {
-    private static final String HOST = "127";
+    private static final String HOST = "127.0.0.1";
     private static final int PORT = 12345;
 
     public static void main(String[] args)
@@ -17,7 +17,6 @@ public class ChatClient
             PrintWriter serverOut = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader userIn = new BufferedReader(new InputStreamReader(System.in))
         )
-
         {
             AtomicBoolean running = new AtomicBoolean(true);
 
@@ -25,12 +24,13 @@ public class ChatClient
             Thread reader = new Thread(() -> {
                 try {
                     String line;
-                    while ((line = serverIn.readLine()) != null) {
+                    while ((line = serverIn.readLine()) != null)
+                    {
                         System.out.println(line);
                     }
-                } catch (IOException e) {
-                    // servidor pode fechar; encerrar leitor
-                } finally {
+                } catch (IOException e) {}
+                finally
+                {
                     running.set(false);
                 }
             });
@@ -40,7 +40,6 @@ public class ChatClient
 
             while (running.get() && (userLine = userIn.readLine()) != null)
             {
-                // TODO [Aluno]: enviar a linha ao servidor
                 serverOut.println(userLine);
                 if ("exit".equalsIgnoreCase(userLine.trim()))
                 {
