@@ -24,6 +24,7 @@ public class ServerInitialized
     public static void main(String[] args)
     {
         ServerInitialized server = new ServerInitialized();
+        
         ExecutorService executor = Executors.newCachedThreadPool();
 
         executor.submit(new ModuleLoader(server.latch, "Configuração", 6000));

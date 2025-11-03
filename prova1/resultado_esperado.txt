@@ -1,0 +1,214 @@
+╔════════════════════════════════════════════════╗
+║    Teste de Estresse - Sistema de Reserva      ║
+╚════════════════════════════════════════════════╝
+Clientes simultâneos: 200
+
+[Cliente 98] RESERVE Igor Teixeira PLATINUM ANY → OK 22A 3ed74004
+[Cliente 58] RESERVE Lucas Lima PLATINUM ANY → OK 10B 40c78752
+[Cliente 19] RESERVE Samuel Macedo PLATINUM ANY → OK 22C 1ffc0cf2
+[Cliente 23] RESERVE Bruno Oliveira PLATINUM ANY → OK 22B 71eb993b
+[Cliente 33] RESERVE Paulo Queiroz PLATINUM ANY → OK 10A 00512945
+[Cliente 86] RESERVE Samuel Ramos PLATINUM ANY → OK 10C 253c046a
+[Cliente 20] RESERVE Renata Jesus PLATINUM ANY → OK 22D be04fd66
+[Cliente 31] RESERVE Bruno Ferreira PLATINUM ANY → OK 10D 38817213
+[Cliente 24] RESERVE Karen Oliveira PLATINUM ANY → OK 22E a2dcb605
+[Cliente 138] RESERVE Renata Nascimento PLATINUM ANY → OK 10E 2de615ec
+[Cliente 152] RESERVE Helena Macedo PLATINUM ANY → OK 22F 415f853a
+[Cliente 21] RESERVE Lucas Pereira PLATINUM ANY → OK 10F e6b5a677
+[Cliente 14] RESERVE Helena Dias PLATINUM ANY → OK 8A eb7372b0
+[Cliente 56] RESERVE Helena Carvalho PLATINUM ANY → OK 8B 93b942cb
+[Cliente 118] RESERVE Daniela Oliveira PLATINUM ANY → OK 8C b51258c1
+[Cliente 111] RESERVE Daniela Esteves GOLD ANY → OK 8D bdbabe46
+[Cliente 137] RESERVE Julia Lima GOLD ANY → OK 8E df02b67e
+[Cliente 146] RESERVE Eduardo Klein GOLD ANY → OK 8F d5e59739
+[Cliente 196] RESERVE Olivia Esteves GOLD ANY → OK 19A da4a03a5
+[Cliente 16] RESERVE Lucas Gomes GOLD ANY → OK 19B 9bf79f43
+[Cliente 169] RESERVE Vinicius Carvalho GOLD ANY → OK 19C c196491b
+[Cliente 59] RESERVE Julia Gomes GOLD ANY → OK 19D 0f7c46e5
+[Cliente 106] RESERVE Olivia Barbosa GOLD ANY → OK 19E a4f37921
+[Cliente 183] RESERVE Renata Nascimento GOLD ANY → OK 19F 693f1f34
+[Cliente 166] RESERVE Lucas Hernandes GOLD ANY → OK 23A 100a0159
+[Cliente 177] RESERVE Mariana Klein GOLD ANY → OK 11A ff2e6d00
+[Cliente 165] RESERVE Renata Klein SILVER ANY → OK 23B 42c38c3f
+[Cliente 15] RESERVE Ana Queiroz SILVER ANY → OK 11B 28fe2845
+[Cliente 55] RESERVE Ana Ramos SILVER ANY → OK 23C e7367e73
+[Cliente 195] RESERVE Vinicius Oliveira SILVER ANY → OK 11C 5ceb739a
+[Cliente 134] RESERVE Carlos Klein SILVER ANY → OK 23D 9ca7b63f
+[Cliente 13] RESERVE Paulo Ramos SILVER ANY → OK 11D 817fec94
+[Cliente 34] RESERVE Ana Teixeira SILVER ANY → OK 23E 2d239b82
+[Cliente 175] RESERVE Olivia Queiroz SILVER ANY → OK 11E 75c632f3
+[Cliente 29] RESERVE Carlos Ramos SILVER ANY → OK 23F 2f48e924
+[Cliente 105] RESERVE Nicolas Oliveira SILVER ANY → OK 11F 5adab585
+[Cliente 27] RESERVE Paulo Jesus SILVER ANY → OK 9A 66904d14
+[Cliente 156] RESERVE Lucas Lima SILVER ANY → OK 9B fbb06c27
+[Cliente 155] RESERVE Igor Teixeira SILVER ANY → OK 9C 348d0241
+[Cliente 28] RESERVE Igor Almeida SILVER ANY → OK 9D 997258b1
+[Cliente 22] RESERVE Vinicius Nascimento SILVER ANY → OK 9E 3cd0d501
+[Cliente 17] RESERVE Fernanda Barbosa SILVER ANY → OK 9F e1c8e180
+[Cliente 25] RESERVE Helena Nascimento SILVER ANY → OK 1A ce6adb38
+[Cliente 90] RESERVE Fernanda Hernandes BASIC ANY → OK 1B a98df737
+[Cliente 45] RESERVE Samuel Esteves BASIC ANY → OK 1C 02e55baa
+[Cliente 57] RESERVE Olivia Jesus BASIC ANY → OK 1D e450157e
+[Cliente 18] RESERVE Gabriel Dias BASIC ANY → OK 1E b8d7517e
+[Cliente 26] RESERVE Vinicius Macedo BASIC ANY → OK 1F 99748c1c
+[Cliente 131] RESERVE Julia Lima BASIC ANY → OK 24A 6f6aa471
+[Cliente 142] RESERVE Fernanda Almeida BASIC ANY → OK 12A b5f7176d
+[Cliente 60] RESERVE Olivia Teixeira SILVER ANY → OK 24B 16c01472
+[Cliente 88] RESERVE Vinicius Klein PLATINUM ANY → OK 12B 078d0997
+[Cliente 92] RESERVE Paulo Jesus PLATINUM ANY → OK 24C ec3f9fe5
+[Cliente 168] RESERVE Renata Ramos PLATINUM ANY → OK 12C cac53f65
+[Cliente 93] RESERVE Fernanda Barbosa PLATINUM ANY → OK 24D 79fa3ba7
+[Cliente 73] RESERVE Julia Dias PLATINUM ANY → OK 12D cbaeb206
+[Cliente 52] RESERVE Ana Almeida PLATINUM ANY → OK 24E 765eeb99
+[Cliente 178] RESERVE Igor Jesus PLATINUM ANY → OK 12E 4bef210c
+[Cliente 136] RESERVE Igor Nascimento PLATINUM ANY → OK 24F 0b17c896
+[Cliente 129] RESERVE Lucas Esteves PLATINUM ANY → OK 12F 1bed9fae
+[Cliente 132] RESERVE Carlos Gomes PLATINUM ANY → OK 2A 7066a8a3
+[Cliente 99] RESERVE Julia Ramos PLATINUM ANY → OK 2B e1b493b7
+[Cliente 180] RESERVE Olivia Lima PLATINUM ANY → OK 2C 81fb90e6
+[Cliente 63] RESERVE Gabriel Ramos PLATINUM ANY → OK 2D f4f23501
+[Cliente 119] RESERVE Fernanda Esteves PLATINUM ANY → OK 2E b97253d4
+[Cliente 151] RESERVE Gabriel Macedo PLATINUM ANY → OK 2F cf0803b4
+[Cliente 130] RESERVE Fernanda Queiroz PLATINUM ANY → OK 25A 6a85e200
+[Cliente 112] RESERVE Gabriel Macedo PLATINUM ANY → OK 13A dc918e48
+[Cliente 116] RESERVE Vinicius Barbosa PLATINUM ANY → OK 25B 4cae106a
+[Cliente 100] RESERVE Fernanda Gomes GOLD ANY → OK 13B 58486b05
+[Cliente 81] RESERVE Carlos Pereira GOLD ANY → OK 25C 569b0b9d
+[Cliente 163] RESERVE Karen Silva GOLD ANY → OK 13C fcd2dcf5
+[Cliente 48] RESERVE Igor Hernandes PLATINUM ANY → OK 25D 39ad2d86
+[Cliente 104] RESERVE Karen Queiroz GOLD ANY → OK 13D 502f4c95
+[Cliente 181] RESERVE Eduardo Esteves PLATINUM ANY → OK 25E e5a47874
+[Cliente 76] RESERVE Karen Dias GOLD ANY → OK 13E 4c09163b
+[Cliente 53] RESERVE Julia Teixeira GOLD ANY → OK 25F 8ed0ef31
+[Cliente 173] RESERVE Daniela Lima GOLD ANY → OK 13F d1b18b56
+[Cliente 115] RESERVE Ana Nascimento GOLD ANY → OK 3A 9dbb2240
+[Cliente 148] RESERVE Samuel Macedo GOLD ANY → OK 3B b2311333
+[Cliente 123] RESERVE Carlos Teixeira GOLD ANY → OK 3C 5e65294d
+[Cliente 68] RESERVE Karen Nascimento GOLD ANY → OK 3D c28c6535
+[Cliente 113] RESERVE Paulo Lima GOLD ANY → OK 3E 63041797
+[Cliente 107] RESERVE Paulo Esteves PLATINUM ANY → OK 3F f0f0e6d1
+[Cliente 141] RESERVE Daniela Queiroz PLATINUM ANY → OK 26A 92d5fb72
+[Cliente 1] RESERVE Lucas Nascimento GOLD ANY → OK 14B 5fbd7d1e
+[Cliente 171] RESERVE Helena Oliveira BASIC ANY → OK 16A cc2a76ff
+[Cliente 139] RESERVE Vinicius Pereira GOLD ANY → OK 26B 2b60e3eb
+[Cliente 154] RESERVE Carlos Lima GOLD ANY → OK 14A bf0ce20c
+[Cliente 198] RESERVE Julia Carvalho GOLD ANY → OK 26C b24a0d80
+[Cliente 72] RESERVE Eduardo Silva GOLD ANY → OK 14D b6bb70fc
+[Cliente 158] RESERVE Paulo Dias SILVER ANY → OK 26F 7cba6c64
+[Cliente 121] RESERVE Carlos Oliveira GOLD ANY → OK 26D 5755fc42
+[Cliente 162] RESERVE Lucas Ibrahim SILVER ANY → OK 26E 5e7de6e0
+[Cliente 71] RESERVE Nicolas Teixeira GOLD ANY → OK 14C 00d3f396
+[Cliente 197] RESERVE Carlos Lima SILVER ANY → OK 14F d3b84def
+[Cliente 128] RESERVE Julia Silva SILVER ANY → OK 14E 224ef91b
+[Cliente 159] RESERVE Daniela Silva SILVER ANY → OK 30A ba53cc66
+[Cliente 89] RESERVE Tatiana Silva SILVER ANY → OK 30B a4d50943
+[Cliente 42] RESERVE Bruno Jesus SILVER ANY → OK 30E 6209b09a
+[Cliente 194] RESERVE Igor Esteves SILVER ANY → OK 30C 64b023c4
+[Cliente 186] RESERVE Mariana Dias SILVER ANY → OK 30D e320ce36
+[Cliente 122] RESERVE Bruno Hernandes SILVER ANY → OK 4E 0ded537d
+[Cliente 46] RESERVE Fernanda Oliveira SILVER ANY → OK 4D 68553d99
+[Cliente 157] RESERVE Eduardo Ramos SILVER ANY → OK 27A 79500d01
+[Cliente 125] RESERVE Ana Carvalho PLATINUM ANY → OK 16D ea9eef06
+[Cliente 54] RESERVE Tatiana Silva SILVER ANY → OK 30F 3fbbfe39
+[Cliente 83] RESERVE Olivia Gomes SILVER ANY → OK 15A 43e76e95
+[Cliente 70] RESERVE Eduardo Esteves SILVER ANY → OK 15B e4c97fab
+[Cliente 153] RESERVE Eduardo Pereira SILVER ANY → OK 4B d5441585
+[Cliente 69] RESERVE Daniela Teixeira SILVER ANY → OK 27B 9603e751
+[Cliente 161] RESERVE Paulo Pereira SILVER ANY → OK 4F 3b8c7f08
+[Cliente 191] RESERVE Karen Teixeira SILVER ANY → OK 27C f36754ec
+[Cliente 47] RESERVE Fernanda Klein SILVER ANY → OK 4C 5200e6cc
+[Cliente 7] RESERVE Julia Klein SILVER ANY → OK 4A e9a35e80
+[Cliente 172] RESERVE Renata Nascimento BASIC ANY → OK 27D 3e93c3fc
+[Cliente 43] RESERVE Eduardo Hernandes SILVER ANY → OK 15C 7d1be72d
+[Cliente 79] RESERVE Olivia Klein BASIC ANY → OK 15D 9e2bfb74
+[Cliente 102] RESERVE Carlos Oliveira BASIC ANY → OK 27E a56b6c98
+[Cliente 188] RESERVE Daniela Dias BASIC ANY → OK 27F 24cefb62
+[Cliente 176] RESERVE Daniela Ramos BASIC ANY → OK 15F a21efb07
+[Cliente 65] RESERVE Tatiana Queiroz BASIC ANY → OK 5A a1de7bb1
+[Cliente 38] RESERVE Renata Teixeira BASIC ANY → OK 5C 2498f943
+[Cliente 97] RESERVE Gabriel Macedo BASIC ANY → OK 16E a3c46983
+[Cliente 160] RESERVE Lucas Ramos BASIC ANY → OK 15E 2a1a4bf6
+[Cliente 126] RESERVE Paulo Pereira BASIC ANY → OK 5B 2afe2f7b
+[Cliente 4] RESERVE Ana Dias BASIC ANY → OK 5D 7933c656
+[Cliente 64] RESERVE Gabriel Queiroz BASIC ANY → OK 5E 432f9a98
+[Cliente 40] RESERVE Igor Ramos BASIC ANY → OK 5F 88d9f50a
+[Cliente 143] RESERVE Tatiana Dias BASIC ANY → OK 28A f6bb7f03
+[Cliente 192] RESERVE Nicolas Lima BASIC ANY → OK 28B ccee0773
+[Cliente 200] RESERVE Ana Esteves BASIC ANY → OK 16B 40a40ea6
+[Cliente 174] RESERVE Nicolas Gomes SILVER ANY → OK 28C 2b75386a
+[Cliente 184] RESERVE Carlos Jesus PLATINUM ANY → OK 16C 969782fe
+[Cliente 124] RESERVE Olivia Ramos PLATINUM ANY → OK 28D e07a35c8
+[Cliente 109] RESERVE Fernanda Almeida BASIC ANY → OK 28E 974b5fe5
+[Cliente 85] RESERVE Eduardo Silva GOLD ANY → OK 28F c4e24695
+[Cliente 49] RESERVE Eduardo Barbosa PLATINUM ANY → OK 16F ab53a9c6
+[Cliente 164] RESERVE Nicolas Jesus PLATINUM ANY → OK 20A 8162cc9e
+[Cliente 147] RESERVE Gabriel Jesus PLATINUM ANY → OK 20B f1514013
+[Cliente 91] RESERVE Fernanda Lima PLATINUM ANY → OK 20C e4ab11a0
+[Cliente 140] RESERVE Helena Esteves PLATINUM ANY → OK 20D 1ddb2f4d
+[Cliente 41] RESERVE Samuel Queiroz PLATINUM ANY → OK 20E 80ad17d0
+[Cliente 167] RESERVE Paulo Carvalho PLATINUM ANY → OK 20F be5e9904
+[Cliente 61] RESERVE Renata Queiroz PLATINUM ANY → OK 6A 7d69604e
+[Cliente 110] RESERVE Carlos Dias PLATINUM ANY → OK 6B 5f94f694
+[Cliente 11] RESERVE Samuel Nascimento PLATINUM ANY → OK 6C 38cc2746
+[Cliente 30] RESERVE Igor Esteves PLATINUM ANY → OK 6D 7b07ef03
+[Cliente 2] RESERVE Ana Dias PLATINUM ANY → OK 6E 7a8667c8
+[Cliente 103] RESERVE Bruno Esteves PLATINUM ANY → OK 6F ba07da22
+[Cliente 10] RESERVE Mariana Pereira PLATINUM ANY → OK 29A eaa20581
+[Cliente 36] RESERVE Daniela Oliveira PLATINUM ANY → OK 17A abb96b78
+[Cliente 127] RESERVE Lucas Gomes PLATINUM ANY → OK 29B 7d9d378f
+[Cliente 87] RESERVE Mariana Lima GOLD ANY → OK 17B dea314b7
+[Cliente 120] RESERVE Igor Dias GOLD ANY → OK 29C 739633a9
+[Cliente 108] RESERVE Julia Oliveira GOLD ANY → OK 17C 82d4e9f3
+[Cliente 182] RESERVE Helena Silva GOLD ANY → OK 29D c857c8c8
+[Cliente 66] RESERVE Daniela Esteves GOLD ANY → OK 17D c39fa16a
+[Cliente 78] RESERVE Lucas Gomes GOLD ANY → OK 29E 4a2fcaf2
+[Cliente 3] RESERVE Paulo Ramos GOLD ANY → OK 17E 296e3401
+[Cliente 50] RESERVE Paulo Silva GOLD ANY → OK 29F 68e63ecc
+[Cliente 82] RESERVE Olivia Ramos GOLD ANY → OK 17F a8c79612
+[Cliente 5] RESERVE Lucas Klein GOLD ANY → OK 21A d8179045
+[Cliente 8] RESERVE Daniela Dias GOLD ANY → OK 21B f5ac71eb
+[Cliente 62] RESERVE Mariana Queiroz GOLD ANY → OK 21C cf4da110
+[Cliente 77] RESERVE Fernanda Esteves GOLD ANY → OK 21D ebfad903
+[Cliente 135] RESERVE Gabriel Klein GOLD ANY → OK 21E 0e033dc2
+[Cliente 35] RESERVE Daniela Teixeira GOLD ANY → OK 21F 8580ffe9
+[Cliente 80] RESERVE Tatiana Nascimento GOLD ANY → OK 7A 9cfcb83d
+[Cliente 117] RESERVE Bruno Almeida GOLD ANY → OK 7B 448ae974
+[Cliente 199] RESERVE Igor Silva GOLD ANY → OK 7C ccd363db
+[Cliente 95] RESERVE Karen Nascimento GOLD ANY → OK 7D 557e5ee0
+[Cliente 84] RESERVE Nicolas Nascimento SILVER ANY → OK 7E 33603a8e
+[Cliente 190] RESERVE Vinicius Klein SILVER ANY → OK 7F f68457dd
+[Cliente 114] RESERVE Carlos Queiroz SILVER ANY → OK 18A 74293dbf
+[Cliente 133] RESERVE Fernanda Jesus SILVER ANY → OK 18B daffa7bc
+[Cliente 6] RESERVE Tatiana Esteves SILVER ANY → OK 18C 78b9d4d9
+[Cliente 179] RESERVE Fernanda Klein SILVER ANY → OK 18D 4d3d7966
+[Cliente 145] RESERVE Nicolas Dias SILVER ANY → OK 18E 68de201b
+[Cliente 37] RESERVE Igor Ferreira SILVER ANY → OK 18F e1dd6d3f
+[Cliente 96] RESERVE Vinicius Ibrahim SILVER ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 144] RESERVE Fernanda Pereira SILVER ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 193] RESERVE Vinicius Jesus SILVER ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 185] RESERVE Renata Barbosa SILVER ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 75] RESERVE Karen Ibrahim BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 149] RESERVE Paulo Ramos SILVER ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 94] RESERVE Carlos Jesus BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 44] RESERVE Gabriel Carvalho BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 67] RESERVE Olivia Lima BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 12] RESERVE Paulo Pereira BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 189] RESERVE Fernanda Jesus BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 74] RESERVE Bruno Barbosa BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 51] RESERVE Samuel Silva BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 101] RESERVE Olivia Carvalho BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 39] RESERVE Igor Queiroz BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 150] RESERVE Bruno Lima BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 9] RESERVE Bruno Ferreira BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 32] RESERVE Tatiana Ibrahim BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 187] RESERVE Karen Silva BASIC ANY → FAIL VOO_LOTADO Voo lotado
+[Cliente 170] RESERVE Tatiana Ibrahim BASIC ANY → FAIL VOO_LOTADO Voo lotado
+
+╔════════════════════════════════════════════════╗
+║   Resultados                                   ║
+╚════════════════════════════════════════════════╝
+Total de requisições: 200
+Sucesso: 180
+Falhas: 20
+Tempo total: 172 ms
+Média: 0 ms/requisição

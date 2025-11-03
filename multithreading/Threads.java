@@ -33,7 +33,7 @@ public class Threads
 
         System.out.println("\nRunnable threads started");
         ArrayList <Thread> threads = new ArrayList<>();
-
+    
         for (int i = 0; i < 5; i++)
         {
             threads.add(new Thread(runnable));
